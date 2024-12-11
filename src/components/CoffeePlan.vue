@@ -1,5 +1,15 @@
 <script setup lang="ts">
-const { name, selected = false } = defineProps<{ name: string; selected?: boolean }>()
+/* const { name, selected = false } = defineProps<{ name: string; selected?: boolean }>() */
+
+const { name, selected } = defineProps({
+  name: {
+    type: String,
+    validator(value: string) {
+      return value.startsWith('The')
+    },
+  },
+  selected: { type: Boolean, default: false },
+})
 </script>
 
 <template>

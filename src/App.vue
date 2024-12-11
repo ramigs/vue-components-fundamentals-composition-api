@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import FancyButton from './components/FancyButton.vue'
 import PlanPicker from './components/PlanPicker.vue'
 </script>
 
@@ -11,6 +12,10 @@ import PlanPicker from './components/PlanPicker.vue'
         We travel the world to source the very best single origin coffee for you
       </h2>
       <PlanPicker />
+      <FancyButton>
+        <template #emoji="{ hover }">{{ hover ? '👍' : '👎' }}</template>
+        <template v-slot:default>Click me</template>
+      </FancyButton>
     </div>
   </main>
 </template>
