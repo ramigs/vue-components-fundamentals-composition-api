@@ -305,7 +305,7 @@ button {
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
   -webkit-font-smoothing: antialiased;
@@ -388,7 +388,7 @@ span#logo {
   margin-right: 0.75rem;
 }
 
-.btn {
+/* .btn {
   display: inline-block;
   color: #fff;
   background-color: #09848d;
@@ -405,7 +405,7 @@ span#logo {
   letter-spacing: 0.2;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-}
+} */
 
 .btn:hover {
   background: rgba(37, 142, 149, 0.96);

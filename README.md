@@ -1,5 +1,8 @@
 # vue-components-fundamentals-composition-api
 
+Originally from [Vue Component Fundamentals with the Composition
+API](https://vueschool.io/lessons/build-a-github-user-profile-vue-component).
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
